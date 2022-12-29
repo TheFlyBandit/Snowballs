@@ -68,7 +68,7 @@ end)
 
 function showHelpNotification()
     BeginTextCommandDisplayHelp("STRING")
-    AddTextComponentSubstringPlayerName("Press ~INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE~ while on foot, to pickup" ..Config.Qty.. " snowballs!")
+    AddTextComponentSubstringPlayerName("Press ~INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE~ while on foot, to pickup " ..Config.Qty.. " snowballs!")
     EndTextCommandDisplayHelp(0, 0, 1, -1)
 end
 
